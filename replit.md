@@ -1,45 +1,31 @@
-# [Project name]
+# Personal Portfolio
 
-_Replace the heading above with the project's name, and this line with one sentence describing what this app does for users._
+A static Jekyll portfolio for GitHub Pages, with Markdown page content and shared HTML layouts/includes.
 
 ## Run & Operate
 
-- `pnpm --filter @workspace/api-server run dev` — run the API server (port 5000)
-- `pnpm run typecheck` — full typecheck across all packages
-- `pnpm run build` — typecheck + build all packages
-- `pnpm --filter @workspace/api-spec run codegen` — regenerate API hooks and Zod schemas from the OpenAPI spec
-- `pnpm --filter @workspace/db run push` — push DB schema changes (dev only)
-- Required env: `DATABASE_URL` — Postgres connection string
+- Install Ruby and Bundler, then run `bundle install`.
+- Preview locally with `bundle exec jekyll serve`.
+- Build the site with `bundle exec jekyll build`.
+- GitHub Pages should publish the `main` branch from `/(root)`.
 
-## Stack
+## Structure
 
-- pnpm workspaces, Node.js 24, TypeScript 5.9
-- API: Express 5
-- DB: PostgreSQL + Drizzle ORM
-- Validation: Zod (`zod/v4`), `drizzle-zod`
-- API codegen: Orval (from OpenAPI spec)
-- Build: esbuild (CJS bundle)
-
-## Where things live
-
-_Populate as you build — short repo map plus pointers to the source-of-truth file for DB schema, API contracts, theme files, etc._
+- `index.md`, `about.md`, `work-experience.md`, `contact.md` — page content and YAML front matter.
+- `_config.yml` — site metadata, plugin configuration, and navigation.
+- `_layouts/` and `_includes/` — shared semantic page structure, navigation, footer, and SEO tags.
+- `assets/css/main.css` and `assets/favicon.svg` — responsive styling and favicon.
+- `README.md` — editing, preview, Lighthouse, and publishing instructions.
+- `PLAN.md` — the approved implementation plan; excluded from the generated site.
 
 ## Architecture decisions
 
-_Populate as you build — non-obvious choices a reader couldn't infer from the code (3-5 bullets)._
-
-## Product
-
-_Describe the high-level user-facing capabilities of this app once they exist._
+- Keep the site at the repository root for GitHub Pages branch publishing.
+- Use the `github-pages` gem and its supported `jekyll-seo-tag` and `jekyll-sitemap` plugins.
+- Use Markdown for content and CSS for presentation; no application server or client-side framework.
+- Keep personal details as explicit placeholders until the owner supplies them.
 
 ## User preferences
 
-_Populate as you build — explicit user instructions worth remembering across sessions._
-
-## Gotchas
-
-_Populate as you build — sharp edges, "always run X before Y" rules._
-
-## Pointers
-
-- See the `pnpm-workspace` skill for workspace structure, TypeScript setup, and package details
+- Light theme and system font stack are temporary defaults because no visual preferences or biography were provided.
+- Do not expose an email address unless the owner later provides one and confirms it may be public.

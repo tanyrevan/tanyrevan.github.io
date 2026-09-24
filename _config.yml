@@ -29,4 +29,12 @@ exclude:
   - Gemfile.lock
   - README.md
   - PLAN.md
+  - replit.md
+  - .replit
+  - .replitignore
+  - .gitignore
+  - .agents
+  - .local
+  - .cache
+  - .conversation
   - vendor

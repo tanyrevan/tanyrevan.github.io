@@ -1,0 +1,1 @@
+- [Replit config edits](replit-config-validation.md) — update `.replit` through validated replacement, not direct file edits.
