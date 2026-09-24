@@ -1,0 +1,262 @@
+:root {
+  color-scheme: light;
+  --color-page: #f4f5ef;
+  --color-surface: #ffffff;
+  --color-ink: #182725;
+  --color-muted: #4b5c57;
+  --color-accent: #245c4c;
+  --color-border: #ccd5ce;
+  --color-focus: #9b3d00;
+  --content-width: 48rem;
+  --page-gutter: clamp(1rem, 5vw, 2.5rem);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  min-width: 320px;
+  background: var(--color-page);
+  scroll-behavior: smooth;
+}
+
+body {
+  min-height: 100vh;
+  margin: 0;
+  color: var(--color-ink);
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  font-size: 1rem;
+  line-height: 1.7;
+  text-rendering: optimizeLegibility;
+}
+
+a {
+  color: var(--color-accent);
+  text-decoration-thickness: 0.08em;
+  text-underline-offset: 0.2em;
+}
+
+a:hover {
+  text-decoration-thickness: 0.14em;
+}
+
+a:focus-visible {
+  outline: 3px solid var(--color-focus);
+  outline-offset: 4px;
+  border-radius: 2px;
+}
+
+.skip-link {
+  position: absolute;
+  z-index: 1;
+  top: 0.75rem;
+  left: var(--page-gutter);
+  padding: 0.6rem 0.9rem;
+  transform: translateY(-160%);
+  border-radius: 0.25rem;
+  background: var(--color-ink);
+  color: var(--color-surface);
+}
+
+.skip-link:focus {
+  transform: translateY(0);
+}
+
+.site-header,
+.page-shell,
+.site-footer {
+  width: min(100% - 2 * var(--page-gutter), var(--content-width));
+  margin-inline: auto;
+}
+
+.site-header {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.9rem 1.5rem;
+  padding-block: 1.5rem;
+  border-bottom: 1px solid var(--color-border);
+}
+
+.site-brand {
+  color: var(--color-ink);
+  font-size: 1rem;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.site-nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.45rem 1.1rem;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.site-nav a {
+  display: inline-block;
+  padding-block: 0.2rem;
+  color: var(--color-muted);
+  font-size: 0.94rem;
+  text-decoration: none;
+}
+
+.site-nav a:hover,
+.site-nav a[aria-current="page"] {
+  color: var(--color-ink);
+  text-decoration: underline;
+  text-decoration-color: var(--color-accent);
+  text-underline-offset: 0.35em;
+}
+
+.site-nav a[aria-current="page"] {
+  font-weight: 700;
+}
+
+.page-shell {
+  min-height: 65vh;
+  padding-block: clamp(3.5rem, 9vw, 7rem);
+}
+
+.intro {
+  max-width: 43rem;
+  padding-block: 0.5rem 2.5rem;
+}
+
+.eyebrow {
+  margin: 0 0 0.8rem;
+  color: var(--color-accent);
+  font-size: 0.78rem;
+  font-weight: 750;
+  letter-spacing: 0.11em;
+  line-height: 1.4;
+  text-transform: uppercase;
+}
+
+h1,
+h2,
+p {
+  margin-top: 0;
+}
+
+h1,
+h2 {
+  color: var(--color-ink);
+  line-height: 1.18;
+  text-wrap: balance;
+}
+
+h1 {
+  max-width: 14ch;
+  margin-bottom: 1.1rem;
+  font-size: clamp(2.6rem, 9vw, 5.4rem);
+  letter-spacing: -0.055em;
+}
+
+h2 {
+  margin-bottom: 0.85rem;
+  font-size: clamp(1.4rem, 4vw, 1.8rem);
+  letter-spacing: -0.025em;
+}
+
+.intro__summary,
+.page-lede {
+  max-width: 38rem;
+  margin-bottom: 1rem;
+  color: var(--color-muted);
+  font-size: clamp(1.12rem, 3vw, 1.35rem);
+  line-height: 1.6;
+}
+
+.placeholder-note {
+  color: var(--color-muted);
+  font-size: 0.9rem;
+}
+
+.page-heading {
+  max-width: 42rem;
+  margin-bottom: 3rem;
+}
+
+.content-section {
+  max-width: 42rem;
+  margin-top: 2rem;
+  padding-top: 1.7rem;
+  border-top: 1px solid var(--color-border);
+}
+
+.content-section p:last-child,
+.experience-entry p:last-child {
+  margin-bottom: 0;
+}
+
+.text-link {
+  font-weight: 650;
+}
+
+.experience-entry {
+  max-width: 42rem;
+  padding: 1.5rem;
+  border: 1px solid var(--color-border);
+  border-radius: 0.5rem;
+  background: var(--color-surface);
+}
+
+.experience-entry h2 {
+  margin-bottom: 0.3rem;
+  font-size: 1.4rem;
+}
+
+.experience-entry__meta {
+  color: var(--color-muted);
+}
+
+code {
+  padding: 0.08em 0.32em;
+  border-radius: 0.2rem;
+  background: #e7ebe6;
+  font-size: 0.92em;
+}
+
+.site-footer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 0.4rem 1.5rem;
+  padding-block: 1.4rem 2rem;
+  border-top: 1px solid var(--color-border);
+  color: var(--color-muted);
+  font-size: 0.9rem;
+}
+
+.site-footer p {
+  margin: 0;
+}
+
+@media (max-width: 38rem) {
+  .site-header {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
+  .site-nav ul {
+    column-gap: 0.9rem;
+  }
+
+  .page-shell {
+    min-height: 60vh;
+  }
+
+  .experience-entry {
+    padding: 1.1rem;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+}

@@ -1,0 +1,32 @@
+title: "[Your Name] | Portfolio"
+description: "Personal portfolio for [Your Name]. Replace this description before publishing."
+url: "https://your-github-username.github.io"
+baseurl: ""
+lang: en
+
+author:
+  name: "[Your Name]"
+
+markdown: kramdown
+permalink: pretty
+
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+navigation:
+  - title: Home
+    url: /
+  - title: About
+    url: /about/
+  - title: Work Experience
+    url: /work-experience/
+  - title: Contact
+    url: /contact/
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - PLAN.md
+  - vendor
