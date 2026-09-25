@@ -1,19 +1,18 @@
 ---
 layout: default
 title: Home
-description: "Personal portfolio for [Your Name]. Replace this description with a brief introduction."
+description: "Evan Tan, CFA — experience in technology investment banking, wealth management, advisory solutions, and investments."
 permalink: /
 ---
 
 <section class="intro" aria-labelledby="home-title">
-  <p class="eyebrow">Personal portfolio</p>
-  <h1 id="home-title">[Your Name]</h1>
-  <p class="intro__summary">[Add a short introduction about yourself here.]</p>
-  <p class="placeholder-note">This text is a placeholder. Replace it with information you want to share publicly.</p>
+  <p class="eyebrow">Professional profile</p>
+  <h1 id="home-title">Evan Tan, CFA</h1>
+  <p class="intro__summary">Experience in technology investment banking, wealth management, advisory solutions, and investments. Master of Business Administration, UC Berkeley Haas (May 2027); Bachelor of Science in Accounting and Finance, London School of Economics and Political Science (June 2020).</p>
 </section>
 
-<section class="content-section" aria-labelledby="welcome-title">
-  <h2 id="welcome-title">Welcome</h2>
-  <p>[Add a sentence about the work, interests, or experience you want visitors to find here.]</p>
-  <p><a class="text-link" href="{{ '/about/' | relative_url }}">Learn more about me <span aria-hidden="true">→</span></a></p>
+<section class="content-section" aria-labelledby="experience-title">
+  <h2 id="experience-title">Experience</h2>
+  <p>Roles at Centerview Partners, UBS, Credit Suisse, and Aglaia Family Office include technology investment banking, global investment management, advisory solutions, and investments.</p>
+  <p><a class="text-link" href="{{ '/work-experience/' | relative_url }}">View work experience <span aria-hidden="true">→</span></a></p>
 </section>
