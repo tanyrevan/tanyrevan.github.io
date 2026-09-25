@@ -1,1 +1,2 @@
 - [Replit config edits](replit-config-validation.md) — update `.replit` through validated replacement, not direct file edits.
+- [Jekyll viewport screenshots](jekyll-viewport-screenshots.md) — use a temporary Chromium profile so Jekyll’s watcher does not rebuild on browser cache writes.
