@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Contact
-description: "Contact [Your Name]. Add your preferred public contact method before publishing."
+description: "Contact Evan Tan, CFA. Add a preferred public contact method before publishing."
 permalink: /contact/
 ---
 

@@ -1,11 +1,11 @@
-title: "[Your Name] | Portfolio"
-description: "Personal portfolio for [Your Name]. Replace this description before publishing."
+title: "Evan Tan, CFA | Portfolio"
+description: "Evan Tan, CFA — technology investment banking, wealth management, advisory solutions, and investments. Master of Business Administration, UC Berkeley Haas (May 2027)."
 url: "https://your-github-username.github.io"
 baseurl: ""
 lang: en
 
 author:
-  name: "[Your Name]"
+  name: "Evan Tan, CFA"
 
 markdown: kramdown
 permalink: pretty
@@ -29,6 +29,7 @@ exclude:
   - Gemfile.lock
   - README.md
   - PLAN.md
+  - Change1.md
   - replit.md
   - .replit
   - .replitignore
@@ -37,4 +38,5 @@ exclude:
   - .local
   - .cache
   - .conversation
+  - attached_assets
   - vendor
