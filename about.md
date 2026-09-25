@@ -1,7 +1,7 @@
 ---
 layout: default
 title: About
-description: "About Evan Tan, CFA: finance experience, education, languages, and tennis achievements listed in his CV."
+description: "About Evan Tan, CFA: finance experience, education, languages, and tennis achievements from the CV."
 permalink: /about/
 ---
 

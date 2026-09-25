@@ -26,7 +26,7 @@ permalink: /work-experience/
   <h2 id="ubs-title">Associate Director, CIO Global Investment Management</h2>
   <p class="experience-entry__meta">UBS, Wealth Management <span aria-hidden="true">·</span> Singapore <span aria-hidden="true">·</span> 2023–2025</p>
   <ul>
-    <li>Implemented strategic and tactical asset allocation trades across 1,000+ APAC client portfolios, aligned to CIO market views. The CV states stable 9%+ annualized returns over a 10-year horizon in the UBS Manage flagship discretionary solution.</li>
+    <li>Implemented strategic and tactical asset allocation trades across 1,000+ APAC client portfolios aligned to CIO market views, achieving stable 9%+ annualized returns over a 10-year horizon in the UBS Manage flagship discretionary solution.</li>
     <li>Developed and launched an Alternative Investments offering for Hedge Funds and Private Market Funds, resulting in 110+ new portfolio openings and a 20bps+ uplift in portfolio revenue within 2 weeks.</li>
     <li>Collaborated with stakeholders on the Credit Suisse–UBS integration across product, pricing, and platform workstreams to deliver synergies and seamless migration of client investments.</li>
   </ul>
@@ -37,7 +37,7 @@ permalink: /work-experience/
   <p class="experience-entry__meta">Credit Suisse, Wealth Management <span aria-hidden="true">·</span> Singapore <span aria-hidden="true">·</span> 2022–2023</p>
   <ul>
     <li>Produced daily equity, bond, and fund investment ideas aligned with House View and tailored to client needs, distributed via direct-to-client content channels.</li>
-    <li>Conducted CS Invest trainings for 240+ Relationship Managers and investment consultants across 10 APAC markets; the CV states this drove a 10%+ year-over-year increase in sales.</li>
+    <li>Conducted CS Invest trainings for 240+ Relationship Managers and investment consultants across 10 APAC markets, enhancing product knowledge and driving a 10%+ year-over-year increase in sales.</li>
     <li>Collaborated with 8 cross-functional teams to streamline onboarding workflows and enhance performance tracking, leading to a 25% reduction in portfolio opening time.</li>
   </ul>
 </section>

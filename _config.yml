@@ -29,6 +29,7 @@ exclude:
   - Gemfile.lock
   - README.md
   - PLAN.md
+  - Change1.md
   - replit.md
   - .replit
   - .replitignore
@@ -37,4 +38,5 @@ exclude:
   - .local
   - .cache
   - .conversation
+  - attached_assets
   - vendor
